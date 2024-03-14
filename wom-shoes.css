@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: myfont;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myfont;
+    src: url(HelveticaNowDisplay.ttf);
+}
+.main{
+    display: flex;
+    width: 100vw;
+}
+
+.leftnav{
+    width: 15vw;
+    position: fixed;
+    padding: 30px;
+}
+.leftnav li{
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.leftnav h1{
+    list-style-type: none;
+    line-height: 65px;
+    font-size: 24px;
+    font-family: myfont;
+    font-weight: 100;
+}
+.leftnav li:hover{
+    text-decoration: underline;
+}
+.leftnav li a{
+    text-decoration: none;
+    color: black;
+}
+.leftnav li a:visited{
+    color: black
+}
+.right{
+    width: 88vw;
+    margin-left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+#sneakers,#running,#walking,#slipons,#training,#sandals,#badminton,#cricket,#football,#basketball{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+}
+.shoecard{
+    width: 400px;
+    height:500px ;
+    background-color: white;
+}
+.imageholder-1 {
+    height: 400px;
+    width: 380px;
+    background-position: center;
+    background-size: cover;
+}
+.price-cont{
+    text-align: center;
+}

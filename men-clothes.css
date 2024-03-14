@@ -1,0 +1,99 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: myfont;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myfont;
+    src: url(HelveticaNowDisplay.ttf);
+}
+.main{
+    display: flex;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.leftnav{
+    max-width: 300px;
+    width: 100%;
+    height: 1000px;
+    position: sticky;
+    top: 0px;
+    padding: 30px;
+}
+.leftholder{
+
+    top: 0;
+}
+.leftnav li{
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.leftnav h1{
+    list-style-type: none;
+    line-height: 65px;
+    font-size: 24px;
+    font-family: myfont;
+    font-weight: 100;
+}
+.leftnav li:hover{
+    text-decoration: underline;
+}
+.leftnav li a{
+    text-decoration: none;
+    color: black;
+}
+.leftnav li a:visited{
+    color: black
+}
+.right{
+    max-width: 1800px;
+    height: 6200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#tshirt,#polos,#jackets,#hoody,#shorts,#pants,#tracks,#homewear,#dresses{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:120px;
+    justify-content: center;
+    gap: 10px;
+}
+.shoecard{
+    width: 381px;
+}
+.clothcard{
+    width: 400px;
+    /* height:500px ; */
+    background-color: white;
+    margin-bottom: 100px;
+}
+.price-cont{
+    text-align: center;
+    width: 100%;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.price-cont .h1{
+    font-size: 24px;
+    max-width: 400px;
+    width: 100%;
+}
+.imageholder-1,.imageholder-2,.imageholder-3,.imageholder-4,.imageholder-5,.imageholder-6 {
+    height: 400px;
+    width: 380px;
+    background-position: center;
+    background-size: cover;
+}
+#searchbox{
+    color: black;
+}

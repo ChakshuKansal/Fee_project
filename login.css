@@ -1,0 +1,48 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: myfont;
+    background-color: #8A7350 ;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Din-Pro-Font/DIN\ Pro\ 400.otf);
+}
+.a1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: white;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: black;
+}
+.a1{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    text-align: center;
+    padding: 20px;
+}
+.avatar img{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}

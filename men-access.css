@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: myfont;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myfont;
+    src: url(HelveticaNowDisplay.ttf);
+}
+.main{
+    display: flex;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.leftnav{
+    width: 15vw;
+    position: fixed;
+    padding: 30px;
+}
+.leftnav li{
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.leftnav h1{
+    list-style-type: none;
+    line-height: 65px;
+    font-size: 24px;
+    font-family: myfont;
+    font-weight: 100;
+}
+.leftnav li:hover{
+    text-decoration: underline;
+}
+.leftnav li a{
+    text-decoration: none;
+    color: black;
+}
+.leftnav li a:visited{
+    color: black
+}
+.right{
+    width: 88vw;
+    margin-left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+#caps,#bags,#gym,#socks,#wallets,#mask,#bottle,#eye{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+}
+.accesscard{
+    width: 400px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.price-cont{
+    text-align: center;
+}
+
+.imageholder-1,.imageholder-2,.imageholder-3,.imageholder-4,.imageholder-5,.imageholder-6 {
+    height: 400px;
+    width: 380px;
+    background-position: center;
+    background-size: cover;
+}
